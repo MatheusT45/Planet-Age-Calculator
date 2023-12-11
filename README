@@ -14,22 +14,8 @@ Theres 3 option to run locally:
 npm run dev
 ```
 
-### - Using Docker Compose
+### - Using Docker
 
 ```
 docker-compose up
-```
-
-### - Using Docker
-
-#### Build Image
-
-```
-docker build -f Dockerfile -t planet-age:node .
-```
-
-#### Run Container
-
-```
-docker run -it -p 3000:3000 planet-age:node
 ```
