@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "test": "jest --coverage --watchAll --verbose",
+    "build": "tsc --build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
