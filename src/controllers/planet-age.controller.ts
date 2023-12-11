@@ -12,7 +12,7 @@ export const getAgeOnPlanet = (seconds: number, planet: string) => {
   }
 
   if (planets.find((p) => p.name === planet.toLowerCase()) === undefined) {
-    return { response: 'Error: You must provide valid planet', error: true };
+    return { response: 'Error: You must provide a valid planet', error: true };
   }
 
   return {
