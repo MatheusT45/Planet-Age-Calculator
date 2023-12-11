@@ -1,0 +1,14 @@
+version: '3.4'
+services:
+  app:
+    container_name: planet-age-calculator
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run dev
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
+    ports:
+      - '3000:3000'

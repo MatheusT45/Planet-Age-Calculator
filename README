@@ -1,0 +1,35 @@
+# Planet Age Calculator
+
+Matheus Andrade Tavares
+
+## Um pouco sobre mim...
+
+## Running locally
+
+Theres 3 option to run locally:
+
+### - Using NPM
+
+```
+npm run dev
+```
+
+### - Using Docker Compose
+
+```
+docker-compose up
+```
+
+### - Using Docker
+
+#### Build Image
+
+```
+docker build -f Dockerfile -t planet-age:node .
+```
+
+#### Run Container
+
+```
+docker run -it -p 3000:3000 planet-age:node
+```
