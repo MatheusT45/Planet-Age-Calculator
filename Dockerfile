@@ -15,6 +15,3 @@ RUN npm install && npm cache clean --force
 
 # Starting our application
 CMD [ "npm", "run", "dev"]
-
-# Exposing server port
-EXPOSE 3000
