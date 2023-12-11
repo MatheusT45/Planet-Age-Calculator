@@ -68,6 +68,8 @@ curl --request POST \
 }'
 ```
 
+More test cases on this Endpoint here: https://github.com/MatheusT45/Planet-Age-Calculator/blob/main/docs/Insomnia_2023-12-11.json
+
 ## Running tests
 
 ```
