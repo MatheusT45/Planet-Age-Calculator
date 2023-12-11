@@ -72,13 +72,23 @@ More test cases on this Endpoint [here](https://github.com/MatheusT45/Planet-Age
 
 ## Running tests
 
+### - Using NPM
+
 ```
 npm run test
 ```
 
+### - Using Docker
+
+```
+docker exec -it planet-age-calculator npm run test
+```
+
 ## Running locally
 
-Theres 2 option to run locally, both of them will be hosted on `localhost:3000`
+First, copy `.env.example` into a `.env` file on the root of the project.
+
+Then, there's 2 option to run locally, both of them will be hosted on `localhost:3000`
 
 ### - Using NPM
 
@@ -89,5 +99,5 @@ npm run dev
 ### - Using Docker
 
 ```
-docker-compose up
+docker compose up
 ```
