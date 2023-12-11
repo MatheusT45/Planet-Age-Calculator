@@ -93,7 +93,7 @@ Then, there's 2 option to run locally, both of them will be hosted on `localhost
 ### - Using NPM
 
 ```
-npm run dev
+npm install && npm run dev
 ```
 
 ### - Using Docker
