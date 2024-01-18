@@ -39,10 +39,10 @@ Mais uma vez, gostaria de agradecer a oportunidade de realizar esse desafio! Seg
 ## Endpoints
 
 ```
-HTTP POST /age-on-planet
+HTTP POST /
 Arguments:
 {
-  seconds: integer,
+  birthDay: string,
   type: string (
     'mercury',
     'venus',
@@ -60,15 +60,13 @@ cURL:
 
 ```
 curl --request POST \
-  --url http://localhost:3000/age-on-planet \
+  --url http://localhost:3000/ \
   --header 'Content-Type: application/json' \
   --data '{
-	"seconds": 2500000000,
+	"birthDay": '1996-07-15T18:45:00.000Z',
 	"type": "venus"
 }'
 ```
-
-More test cases on this Endpoint [here](https://github.com/MatheusT45/Planet-Age-Calculator/blob/main/docs/Insomnia_2023-12-11.json)!
 
 ## Running tests
 
@@ -81,7 +79,7 @@ npm run test
 ### - Using Docker
 
 ```
-docker exec -it planet-age-calculator npm run test
+docker exec -it app npm run test
 ```
 
 ## Running locally

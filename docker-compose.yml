@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   app:
-    container_name: planet-age-calculator
+    container_name: app
     restart: always
     build:
       context: .
